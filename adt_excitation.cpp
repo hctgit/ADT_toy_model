@@ -155,7 +155,7 @@ cout << "\n";
   ofstream myfile0, myfile1, myfile2, myfile3, myfile4, myfile5;
   ofstream myfile6, myfile7, myfile8, myfile9, myfile10, myfile11;
 
-  myfile0.open ("dist_at_initial.dat");
+  myfile0.open ("dist_at_0.dat");
   myfile1.open ("dist_at_10.dat");
   myfile2.open ("dist_at_20.dat");
   myfile3.open ("dist_at_30.dat");
@@ -165,7 +165,7 @@ cout << "\n";
   myfile7.open ("dist_at_70.dat");
   myfile8.open ("dist_at_80.dat");
   myfile9.open ("dist_at_90.dat");
-  myfile10.open ("dist_at_final.dat");
+  myfile10.open ("dist_at_100.dat");
 
   ofstream myfile20;
   myfile20.open ("ramp.dat");
